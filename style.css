@@ -1,0 +1,100 @@
+:root {
+  --lightRed: hsl(356, 100%, 66%);
+  --veryLightRed: hsl(355, 100%, 74%);
+  --veryDarkBlue: hsl(208, 49%, 24%);
+  --grayishBlue: hsl(240, 2%, 79%);
+  --veryDarkGrayish: hsl(207, 13%, 34%);
+  --veryDarkBlackBlue: hsl(240, 10%, 16%);
+  --veryLightRed: hsl(13, 100%, 72%);
+  --lightRed: hsl(353, 100%, 62%);
+  --veryDarkGrayBlue: hsl(237, 17%, 21%);
+  --veryDarkDesaturatedBlue: hsl(237, 23%, 32%);
+  --white: #fff;
+}
+
+.landing {
+  border-bottom-left-radius: 15%;
+  background-color: var(--veryLightRed);
+  background-image: url("/images/bg-pattern-intro-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: 31% 48%;
+  padding: 2% 0 20%;
+}
+
+.landing__title {
+  color: var(--white);
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.test .spanT {
+  background-color: aqua;
+}
+.landing__title--actions .actionBtn {
+  font-size: 0.875rem;
+  border-radius: 2.5rem;
+  border: none;
+  padding: 0.5rem 0.625rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+}
+
+.landing__title--actions button:nth-child(1) {
+  background-color: var(--white);
+  color: var(--lightRed);
+  margin-right: 0.3125rem;
+}
+
+.landing__title--actions button:nth-child(2) {
+  border: 0.5px solid var(--white);
+  background-color: transparent;
+  color: var(--white);
+}
+/* About */
+
+.about-header {
+  color: var(--veryDarkBlue);
+}
+.about__info {
+  margin-top: 7.25rem;
+}
+
+.about__image img {
+  position: relative;
+  bottom: 4.75rem;
+  left: 10rem;
+}
+.about__info--feat span {
+  display: block;
+  font-size: 1.1rem;
+  color: var(--veryDarkBlue);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.about__info--feat p {
+  font-size: 0.875rem;
+  color: var(--grayishBlue);
+  font-weight: 300;
+}
+.about__info:nth-of-type(2) {
+  margin-top: 80px;
+}
+/* features */
+.features {
+  background-color: var(--veryDarkGrayBlue);
+  border-bottom-left-radius: 15%;
+  border-top-right-radius: 15%;
+  max-height: 25.25rem;
+  background-image: url("./images/bg-pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-position: left -320px top -205px;
+}
+
+.features-screens img {
+  position: relative;
+  top: -4.6875rem;
+}
